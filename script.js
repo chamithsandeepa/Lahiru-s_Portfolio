@@ -8,7 +8,7 @@ const experienceData = [
     date: "Mar 2025 - Present",
     details:
       "Coordinated cross-functional teams improving deployment efficiency by 15%.",
-    logo: "https://via.placeholder.com/50",
+    logo: "images/max.png",
   },
   {
     role: "Product Intern",
@@ -16,7 +16,7 @@ const experienceData = [
     date: "Jul 2024 - Feb 2025",
     details:
       "Supported product launches by coordinating between design and engineering teams, reducing go-to-market delays by 20%.",
-    logo: "https://via.placeholder.com/50",
+    logo: "images/max.png",
   },
   {
     role: "Project Coordinator",
@@ -24,7 +24,7 @@ const experienceData = [
     date: "Jan 2023 - Jun 2024",
     details:
       "Led sprint planning and backlog refinement, improving cross-departmental communication and project delivery timelines.",
-    logo: "https://via.placeholder.com/50",
+    logo: "images/max.png",
   },
   {
     role: "Operations Analyst",
@@ -32,7 +32,7 @@ const experienceData = [
     date: "Jun 2021 - Dec 2022",
     details:
       "Optimized process flows and introduced data dashboards that enhanced reporting accuracy and reduced manual work by 25%.",
-    logo: "https://via.placeholder.com/50",
+    logo: "images/max.png",
   },
 ];
 
