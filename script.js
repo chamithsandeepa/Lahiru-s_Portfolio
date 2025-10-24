@@ -3,63 +3,87 @@
 // Experience Data
 const experienceData = [
   {
-    role: "Associate PM",
-    company: "Aventure IT",
+    role: "Project Manager",
+    company: "Cenzios",
     date: "Mar 2025 - Present",
     details:
-      "Coordinated cross-functional teams improving deployment efficiency by 15%.",
-    logo: "https://via.placeholder.com/50",
+      "Leading cross-functional teams to deliver enterprise software solutions. Managing complex IT projects with Agile and Hybrid methodologies.",
+    logo: "https://i.postimg.cc/HxBvBjDy/Cenzios-LG33-03.jpg",
+  },
+  // {
+  //   role: "Founder",
+  //   company: "Safer Technologies",
+  //   date: "Jan 2024 - Present",
+  //   details:
+  //     "Building custom software solutions and IT services to help businesses leverage secure, innovative technology.",
+  //   logo: "https://via.placeholder.com/50",
+  // },
+  {
+    role: "Associate Project Manager",
+    company: "Aventure IT",
+    date: "Oct 2024 - Mar 2025",
+    details:
+      "Spearheaded project planning, resource allocation, and risk management for diverse client portfolios using JIRA.",
+    logo: "https://i.postimg.cc/8z533RkX/aventure-it-logo.jpg",
   },
   {
-    role: "Product Intern",
-    company: "NextWave Labs",
-    date: "Jul 2024 - Feb 2025",
+    role: "Business Development Manager",
+    company: "Our Nation PVT Ltd",
+    date: "Oct 2022 - Oct 2024",
     details:
-      "Supported product launches by coordinating between design and engineering teams, reducing go-to-market delays by 20%.",
-    logo: "https://via.placeholder.com/50",
+      "Managed operations for 25+ staff across multiple locations, driving sales, marketing, and strategic business growth.",
+    logo: "https://i.postimg.cc/TPHW0X7N/Untitled-design.png",
   },
   {
-    role: "Project Coordinator",
-    company: "BluePeak Solutions",
-    date: "Jan 2023 - Jun 2024",
+    role: "President, SESA",
+    company: "University of Kelaniya",
+    date: "Jul 2022 - Jul 2023",
     details:
-      "Led sprint planning and backlog refinement, improving cross-departmental communication and project delivery timelines.",
-    logo: "https://via.placeholder.com/50",
+      "Led the largest 24-hour inter-university hackathon (Realhack) and managed multi-million rupee budgets.",
+    logo: "https://i.postimg.cc/QdtPPQN4/1630661821828.jpg",
   },
   {
-    role: "Operations Analyst",
-    company: "Vertex Dynamics",
-    date: "Jun 2021 - Dec 2022",
+    role: "Business Analyst Intern",
+    company: "ELZIAN AGRO",
+    date: "Sep 2021 - Feb 2022",
     details:
-      "Optimized process flows and introduced data dashboards that enhanced reporting accuracy and reduced manual work by 25%.",
-    logo: "https://via.placeholder.com/50",
+      "Bridged business and technology in agribusiness, managing stakeholder communication and requirements.",
+    logo: "https://i.postimg.cc/66zxm5Lp/Untitled-design-1.png",
+  },
+  {
+    role: "Sales Manager & Executive",
+    company: "AIA Sri Lanka",
+    date: "Apr 2018 - Sep 2021",
+    details:
+      "Promoted through excellence in sales leadership, team building, and mentoring while completing university.",
+    logo: "https://i.postimg.cc/NjMVV6GV/AIA.jpg",
   },
 ];
 
 // Projects Data
 const projectsData = [
   {
-    title: "FlowSuite - Workflow System",
+    title: "FlowSuite - Workflow Supervision System",
     description:
-      "Enterprise workflow solution for manufacturing clients. Reduced operational bottlenecks by 75% and improved communication by 90%.",
-    tech: ["React", "Node.js", "SQL Server", "Azure"],
-    link: "#",
-    image: "images/pro1.png",
+      "A comprehensive enterprise solution designed for manufacturing clients to streamline cross-departmental workflows. Features include real-time process tracking, automated notifications, role-based access control, and detailed analytics dashboards. Reduced operational bottlenecks by 90% and improved interdepartmental communication.",
+    tech: ["Project Management", "Solution Design", "Business Analyst","Stakeholder Management"],
+    link: "https://flowsuite.web.cenzios.com/",
+    image: "https://i.postimg.cc/N0T56rXJ/Logo.png",
   },
   {
-    title: "InsightIQ - Analytics Dashboard",
+    title: "Cenzios Learning Management System",
     description:
-      "A powerful analytics tool for monitoring KPIs, visualizing data, and enabling smarter business decisions.",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "AWS"],
-    link: "#",
+      "A full-scale LMS platform for educational institutes that eliminates administrative overhead. Includes course management, student enrollment automation, progress tracking, certificate generation, and integrated payment processing.",
+    tech: ["Project Management", "Lead Business Analyst", "Solution Design", "Project Cordinator"],
+    link: "https://learner.cenzios.com/",
     image: "images/pro2.png",
   },
   {
-    title: "PulseCRM - Customer Management",
+    title: "Realhack 4.0 - 2023 - Sri Lanka's Largest 24 Hours Physical Inter-University Coding Hackathon",
     description:
-      "CRM solution for tracking customer interactions, automating tasks, and improving sales team performance.",
-    tech: ["Vue.js", "Laravel", "MySQL", "Docker"],
-    link: "#",
+      "Conceptualized and executed Sri Lanka's largest 24-hour physical inter-university hackathon. Managed a team of 150+ undergraduates, secured 2M+ LKR in sponsorships, coordinated with 15+ universities, and facilitated mentorship from industry leaders. Over 500 participants competed in various technology challenges.",
+    tech: ["Team Leadership", "Event Management", "Sponsorship Hunting", ""],
+    link: "https://lahiruseuok.github.io/Realhack4.0/",
     image: "images/pro3.png",
   },
 ];
