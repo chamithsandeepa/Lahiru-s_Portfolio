@@ -247,6 +247,39 @@ function createProjectCard(project) {
   return card;
 }
 
+// ======== New Case Studies Section =========
+function renderCaseStudies() {
+  const container = document.getElementById("case-studies-container");
+
+  // Row 1: First 2 case studies
+  if (caseStudiesData.length >= 2) {
+    const row1 = document.createElement("div");
+    row1.className = "projects-grid";
+
+    for (let i = 0; i < 2 && i < caseStudiesData.length; i++) {
+      row1.appendChild(createProjectCard(caseStudiesData[i]));
+    }
+    container.appendChild(row1);
+  }
+
+  // Row 2: Remaining case studies
+  if (caseStudiesData.length > 2) {
+    const row2 = document.createElement("div");
+    row2.className = "projects-grid single";
+
+    for (let i = 2; i < caseStudiesData.length; i++) {
+      row2.appendChild(createProjectCard(caseStudiesData[i]));
+    }
+    container.appendChild(row2);
+  }
+}
+
+// ======== Initialize Rendering ========
+document.addEventListener("DOMContentLoaded", () => {
+  renderProjects();
+  renderCaseStudies();
+});
+
 // Render Education
 function renderEducation() {
   const container = document.getElementById("education-container");
