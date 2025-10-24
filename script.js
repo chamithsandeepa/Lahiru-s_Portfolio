@@ -68,7 +68,7 @@ const projectsData = [
       "A comprehensive enterprise solution designed for manufacturing clients to streamline cross-departmental workflows. Features include real-time process tracking, automated notifications, role-based access control, and detailed analytics dashboards. Reduced operational bottlenecks by 90% and improved interdepartmental communication.",
     tech: ["Project Management", "Solution Design", "Business Analyst","Stakeholder Management"],
     link: "https://flowsuite.web.cenzios.com/",
-    image: "https://i.postimg.cc/N0T56rXJ/Logo.png",
+    image: "https://i.postimg.cc/hvTYVmRx/Macbook-Pro-FREE.png",
   },
   {
     title: "Cenzios Learning Management System",
@@ -76,13 +76,13 @@ const projectsData = [
       "A full-scale LMS platform for educational institutes that eliminates administrative overhead. Includes course management, student enrollment automation, progress tracking, certificate generation, and integrated payment processing.",
     tech: ["Project Management", "Lead Business Analyst", "Solution Design", "Project Cordinator"],
     link: "https://learner.cenzios.com/",
-    image: "images/pro2.png",
+    image: "https://i.postimg.cc/j2P1yfY7/Macbook-Pro-FREE-1.pngg",
   },
   {
     title: "Realhack 4.0 - 2023 - Sri Lanka's Largest 24 Hours Physical Inter-University Coding Hackathon",
     description:
       "Conceptualized and executed Sri Lanka's largest 24-hour physical inter-university hackathon. Managed a team of 150+ undergraduates, secured 2M+ LKR in sponsorships, coordinated with 15+ universities, and facilitated mentorship from industry leaders. Over 500 participants competed in various technology challenges.",
-    tech: ["Team Leadership", "Event Management", "Sponsorship Hunting", ""],
+    tech: ["Team Leadership", "Event Management", "Sponsorship Hunting", "Coaching"],
     link: "https://lahiruseuok.github.io/Realhack4.0/",
     image: "images/pro3.png",
   },
@@ -113,40 +113,54 @@ const educationData = [
 // Certifications Data
 const certificationsData = [
   {
-    title: "Certified Scrum Master",
-    issuer: "Scrum Alliance",
-    date: "2024",
-    image: "images/certificate.png",
-  },
-  {
-    title: "PMP Certification",
+    title: "Introduction to Basics of Disciplined Agile",
     issuer: "PMI",
-    date: "2023",
-    image: "images/certificate.png",
+    date: "Aug 2024",
+    image: "https://i.postimg.cc/5tZdvbQh/channels4-profile.jpg",
+  },
+  
+  {
+    title: "The Basics of Scrum",
+    issuer: "PMI",
+    date: "Aug 2024",
+    image: "https://i.postimg.cc/5tZdvbQh/channels4-profile.jpg",
   },
   {
-    title: "Agile Fundamentals",
-    issuer: "LinkedIn Learning",
-    date: "2023",
-    image: "images/certificate.png",
+    title: "Generative AI Overview for Project Managers",
+    issuer: "PMI",
+    date: "Aug 2024",
+    image: "https://i.postimg.cc/5tZdvbQh/channels4-profile.jpg",
+  },
+  // {
+  //   title: "Taming Bias",
+  //   issuer: "PMI",
+  //   date: "Aug 2024",
+  //   image: "https://i.postimg.cc/5tZdvbQh/channels4-profile.jpg",
+  // },
+  {
+    title: "Agile Scrum Master",
+    issuer: "Simplilearn",
+    date: "Sept 2024",
+    image: "https://i.postimg.cc/6684t0Bp/unnamed.jpg",
+  },
+  // {
+  //   title: "Introduction to Prompt Engineering",
+  //   issuer: "Simplilearn",
+  //   date: "Sept 2024",
+  //   image: "https://i.postimg.cc/6684t0Bp/unnamed.jpg",
+  // },
+  
+  {
+    title: "PRINCE2 Certification Prepaaration ",
+    issuer: "Alison",
+    date: "Aug 2024",
+    image: "https://i.postimg.cc/66PRvPMY/alison-icon-default.webp",
   },
   {
-    title: "Business Analysis",
-    issuer: "Coursera",
-    date: "2022",
-    image: "images/certificate.png",
-  },
-  {
-    title: "PRINCE2 Foundation",
-    issuer: "AXELOS",
-    date: "2022",
-    image: "images/certificate.png",
-  },
-  {
-    title: "Leadership Skills",
-    issuer: "Harvard Online",
-    date: "2021",
-    image: "images/certificate.png",
+    title: "Projects in Controlled Environments",
+    issuer: "Alison",
+    date: "Aug 2024",
+    image: "https://i.postimg.cc/66PRvPMY/alison-icon-default.webp",
   },
 ];
 
@@ -154,17 +168,22 @@ const certificationsData = [
 const recommendationsData = [
   {
     name: "Lahiru Chamika",
-    position: "CEO at Adventure",
-    image: "images/lahiru.png",
-    text: "I've had the pleasure of working closely with Lahiru Sandeepa at Aventur IT Solutions, and I can confidently say he's one of the most reliable and results-driven professionals I've worked with. As a Project Manager, Lahiru consistently demonstrates strong leadership, attention to detail, and a deep understanding of both technology and team dynamics........",
+    position: "CEO at Aventure",
+    image: "https://i.postimg.cc/hG5n4V0s/1748153721826.jpg",
+    text: `I’ve had the pleasure of working closely with Lahiru Sandeepa at Aventure IT Solutions, and I can confidently say he’s one of the most reliable and results-driven professionals I’ve worked with. As a Project Manager, Lahiru consistently demonstrates strong leadership, attention to detail, and a deep understanding of both technology and team dynamics.
+
+He’s played a key role in delivering several critical projects on time and beyond expectations — always maintaining clear communication with clients and motivating the team to perform at their best. Lahiru’s ability to handle challenges with a calm and solution-oriented mindset makes him a true asset to any organization.
+
+Highly recommended for any leadership or technical role in project delivery!`,
   },
   {
-    name: "Sarah Johnson",
-    position: "Product Lead at TechCorp",
-    image: "images/lahiru.png",
-    text: "Lahiru is an exceptional project manager who brings both technical expertise and excellent communication skills to every project. His ability to navigate complex challenges and keep teams aligned is truly impressive. I highly recommend him for any leadership role........",
+    name: "Pankajan Satkunam",
+    position: "Associate Technical Lead",
+    image: "https://i.postimg.cc/QMyDNcqb/1756793465335.jpg",
+    text: 'Throughout his time at Elzian Agro, Lahiru demonstrated exceptional problem-solving skills and a keen ability to analyze complex business processes. He is a driven, analytical, and proactive professional. Lahiru took the initiative on the project, gathering requirements, performing thorough data analysis, and presenting findings to stakeholders clearly and concisely at Elzian Agro. His ability to communicate technical information to non-technical team members was invaluable. His work ethic and dedication to delivering high-quality results did not go unnoticed'
   },
 ];
+
 
 // ========== RENDER FUNCTIONS ==========
 
