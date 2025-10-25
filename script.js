@@ -66,25 +66,40 @@ const projectsData = [
     title: "FlowSuite - Workflow Supervision System",
     description:
       "A comprehensive enterprise solution designed for manufacturing clients to streamline cross-departmental workflows. Features include real-time process tracking, automated notifications, role-based access control, and detailed analytics dashboards. Reduced operational bottlenecks by 90% and improved interdepartmental communication.",
-    tech: ["Project Management", "Solution Design", "Business Analyst","Stakeholder Management"],
+    tech: [
+      "Project Management",
+      "Solution Design",
+      "Business Analyst",
+      "Stakeholder Management",
+    ],
     link: "https://flowsuite.web.cenzios.com/",
-    image: "https://i.postimg.cc/hvTYVmRx/Macbook-Pro-FREE.png",
+    image: "https://i.postimg.cc/tRNXjtb5/Frame-1000005892-2.png",
   },
   {
     title: "Cenzios Learning Management System",
     description:
       "A full-scale LMS platform for educational institutes that eliminates administrative overhead. Includes course management, student enrollment automation, progress tracking, certificate generation, and integrated payment processing.",
-    tech: ["Project Management", "Lead Business Analyst", "Solution Design", "Project Cordinator"],
+    tech: [
+      "Project Management",
+      "Lead Business Analyst",
+      "Solution Design",
+      "Project Cordinator",
+    ],
     link: "https://learner.cenzios.com/",
-    image: "https://i.postimg.cc/j2P1yfY7/Macbook-Pro-FREE-1.pngg",
+    image: "https://i.postimg.cc/J4jjmFnp/Frame-1000005892.png",
   },
+];
+
+const leadershipData = [
+  
   {
-    title: "Realhack 4.0 - 2023 - Sri Lanka's Largest 24 Hours Physical Inter-University Coding Hackathon",
+    title:
+      "Realhack 4.0 - 2023 - Sri Lanka's Largest 24 Hours Physical Inter-University Coding Hackathon",
     description:
       "Conceptualized and executed Sri Lanka's largest 24-hour physical inter-university hackathon. Managed a team of 150+ undergraduates, secured 2M+ LKR in sponsorships, coordinated with 15+ universities, and facilitated mentorship from industry leaders. Over 500 participants competed in various technology challenges.",
     tech: ["Team Leadership", "Event Management", "Sponsorship Hunting", "Coaching"],
-    link: "https://lahiruseuok.github.io/Realhack4.0/",
-    image: "images/pro3.png",
+    link: "https://lahiruseuok.github.io/Realhack4.0/memories.html/",
+    image: "https://i.postimg.cc/rF47TqxY/341771126-961964308556251-5911081119357897708-n.jpg"
   },
 ];
 
@@ -163,7 +178,7 @@ const certificationsData = [
     image: "https://i.postimg.cc/66PRvPMY/alison-icon-default.webp",
   },
 ];
-
+//
 // Recommendations Data
 const recommendationsData = [
   {
@@ -178,12 +193,11 @@ Highly recommended for any leadership or technical role in project delivery!`,
   },
   {
     name: "Pankajan Satkunam",
-    position: "Associate Technical Lead",
+    position: "Associate Technical Lead - Sysco Labs",
     image: "https://i.postimg.cc/QMyDNcqb/1756793465335.jpg",
     text: 'Throughout his time at Elzian Agro, Lahiru demonstrated exceptional problem-solving skills and a keen ability to analyze complex business processes. He is a driven, analytical, and proactive professional. Lahiru took the initiative on the project, gathering requirements, performing thorough data analysis, and presenting findings to stakeholders clearly and concisely at Elzian Agro. His ability to communicate technical information to non-technical team members was invaluable. His work ethic and dedication to delivering high-quality results did not go unnoticed'
   },
 ];
-
 
 // ========== RENDER FUNCTIONS ==========
 
@@ -216,28 +230,60 @@ function renderExperience() {
 // Render Projects
 function renderProjects() {
   const container = document.getElementById("projects-container");
+  for (let i = 0; i < projectsData.length; i++) {
+    container.appendChild(createProjectCard(projectsData[i]));
+  }
 
   // Row 1: First 2 projects
-  if (projectsData.length >= 2) {
-    const row1 = document.createElement("div");
-    row1.className = "projects-grid";
+  // if (projectsData.length >= 2) {
+  //   const row1 = document.createElement("div");
+  //   row1.className = "projects-grid";
 
-    for (let i = 0; i < 2 && i < projectsData.length; i++) {
-      row1.appendChild(createProjectCard(projectsData[i]));
-    }
-    container.appendChild(row1);
+  //   for (let i = 0; i < 2 && i < projectsData.length; i++) {
+  //     row1.appendChild(createProjectCard(projectsData[i]));
+  //   }
+  //   container.appendChild(row1);
+  // }
+
+  // // Row 2: Remaining projects
+  // if (projectsData.length > 2) {
+  //   const row2 = document.createElement("div");
+  //   row2.className = "projects-grid single";
+
+  //   for (let i = 2; i < projectsData.length; i++) {
+  //     row2.appendChild(createProjectCard(projectsData[i]));
+  //   }
+  //   container.appendChild(row2);
+  // }
+}
+
+function renderLeadership() {
+  const container = document.getElementById("leadership-container");
+  for (let i = 0; i < leadershipData.length; i++) {
+    container.appendChild(createProjectCard(leadershipData[i]));
   }
 
-  // Row 2: Remaining projects
-  if (projectsData.length > 2) {
-    const row2 = document.createElement("div");
-    row2.className = "projects-grid single";
+  // Row 1: First 2 projects
+  // if (projectsData.length >= 2) {
+  //   const row1 = document.createElement("div");
+  //   row1.className = "projects-grid";
 
-    for (let i = 2; i < projectsData.length; i++) {
-      row2.appendChild(createProjectCard(projectsData[i]));
-    }
-    container.appendChild(row2);
-  }
+  //   for (let i = 0; i < 2 && i < projectsData.length; i++) {
+  //     row1.appendChild(createProjectCard(projectsData[i]));
+  //   }
+  //   container.appendChild(row1);
+  // }
+
+  // // Row 2: Remaining projects
+  // if (projectsData.length > 2) {
+  //   const row2 = document.createElement("div");
+  //   row2.className = "projects-grid single";
+
+  //   for (let i = 2; i < projectsData.length; i++) {
+  //     row2.appendChild(createProjectCard(projectsData[i]));
+  //   }
+  //   container.appendChild(row2);
+  // }
 }
 
 function createProjectCard(project) {
@@ -295,7 +341,6 @@ function renderCaseStudies() {
 
 // ======== Initialize Rendering ========
 document.addEventListener("DOMContentLoaded", () => {
-  renderProjects();
   renderCaseStudies();
 });
 
@@ -377,6 +422,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Render all sections
   renderExperience();
   renderProjects();
+  renderLeadership();
   renderEducation();
   renderCertifications();
   renderRecommendations();
